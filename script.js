@@ -125,7 +125,7 @@ clear.addEventListener("click", function(){
     document.getElementById("myInput").value = ""
     document.getElementById("r3").checked = true
     let toppings = document.getElementsByName("cb")
-    for(let i = 0; i<calcBtn.length; i++){
+    for(let i = 0; i<toppings.length; i++){
         toppings[i].checked = false
     }
     document.getElementById("serviceSelect").value = "dinein";
