@@ -129,4 +129,5 @@ clear.addEventListener("click", function(){
         toppings[i].checked = false
     }
     document.getElementById("serviceSelect").value = "dinein";
+    document.getElementById("myPara").innerHTML = ""
 });
